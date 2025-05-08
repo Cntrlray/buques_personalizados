@@ -1,0 +1,21 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --botao-bege: #F3DEDE;
+    --cor-de-fundo: #E8A0B0;
+    --preto-secundario: #00030c;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+
+}
+h1{ color: var(--branco-principal);
+ 
+}
+ p{ color: var(--branco-principal);
+
+}
+
+button{ color: var(--preto-secundario);
+
+}
