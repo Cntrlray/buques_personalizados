@@ -10,12 +10,36 @@ body{
 
 }
 h1{ color: var(--branco-principal);
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
 }
  p{ color: var(--branco-principal);
+    margin: 15px 0 250px 0;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-button{ color: var(--preto-secundario);
+h2{  background-color: var(--botao-bege);
+    margin: 15px 0 250px 0;
+    font-size: 27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.container_button{ color: var(--preto-secundario);
+    background-color:var(--botao-bege);
+    height:50px;
+    width:250px;
+
+} 
+
+
+.container{
+    height:-250px;
+    width: -350px;
+
 
 }
