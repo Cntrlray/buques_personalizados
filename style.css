@@ -3,28 +3,31 @@
     --botao-bege: #F3DEDE;
     --cor-de-fundo: #E8A0B0;
     --preto-secundario: #00030c;
+    --fonte-principal:'Italianno'; 
+
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family:var(--fonte-principal);
 
 }
 h1{ color: var(--branco-principal);
-    font-size: 55px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
+    font-size: 74px;
 }
+ 
  p{ color: var(--branco-principal);
     margin: 15px 0 250px 0;
-    font-size: 27px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 47px;
+    
 
 }
 
 h2{  background-color: var(--botao-bege);
-    margin: 15px 0 250px 0;
-    font-size: 27px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 0 150px 0;
+    font-size: 25px;
+
+      
 
 
 }
@@ -40,6 +43,7 @@ h2{  background-color: var(--botao-bege);
 .container{
     height:-250px;
     width: -350px;
+    text-decoration: none;
 
 
 }
