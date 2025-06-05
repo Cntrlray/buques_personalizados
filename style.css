@@ -3,47 +3,37 @@
     --botao-bege: #F3DEDE;
     --cor-de-fundo: #E8A0B0;
     --preto-secundario: #00030c;
-    --fonte-principal:'Italianno'; 
-
+    --fonte-principal:'Italianno',sans-serif; 
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     font-family:var(--fonte-principal);
-
 }
 h1{ color: var(--branco-principal);
     font-size: 74px;
 }
  
  p{ color: var(--branco-principal);
-    margin: 15px 0 250px 0;
+    margin: 15px 0 25px 0;
     font-size: 47px;
-    
-
 }
 
 h2{  background-color: var(--botao-bege);
-    margin: 5px 0 150px 0;
-    font-size: 25px;
-
-      
-
-
+    margin: 5px 0 75px 45;
+    font-size: 35px;
 }
 
 .container_button{ color: var(--preto-secundario);
     background-color:var(--botao-bege);
-    height:50px;
-    width:250px;
-
+    height:70px;
+    width:70px;
 } 
 
-
 .container{
-    height:-250px;
-    width: -350px;
-    text-decoration: none;
-
-
+    position: relative;
 }
+ img[style*="float: right"]{
+    margin: left 20px;
+    margin-bottom:20px;
+ }
